@@ -7,6 +7,9 @@ int i = 6;
 
   // there is a block
 
+
+  // most inportanly  =============   in the blow this block wo redefine i  : int i =122;   it is ok  because i  is in deffret block ;  if the same block it is not ok  ;
+
   {
 
     printf("before   i   in  block   %d\n", i);   // 6
@@ -18,7 +21,7 @@ int i = 6;
 
   }
 
-  printf("outside   block   %d\n", i);   //    6  ;  block cannot effect here 
+  printf("outside   block   %d\n", i);   //    6  ;  block cannot effect here
 
 
   return 0;
