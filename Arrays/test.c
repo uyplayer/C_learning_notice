@@ -4,7 +4,7 @@ int main(int argc, char const *argv[]) {
 char y;
 int z = 9;
 //    char    range    :  -128     ~   +128    ;
-//   if    char point[6] = { 1, 2, 3, 800, 5, 300 };    this  line will be  error   ,because  300 and 800  out of  range  of char (-128 ,128)
+//   if    char point[6] = { 1, 2, 3, 800, 5, 300 };    this  line will be  error   ,because ASCII  300 and 800  out of  range  of char (-128 ,128)
 
 char point[6] = { 1, 2, 3, 4, 5, 5 };
 
