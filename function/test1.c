@@ -29,7 +29,7 @@ float avarage(int n_args,...){
    */
 
   while (numbersAdded<n_args) {  // here is n_args=5 ; first element
-    printf("n_args =  %d ",n_args);  //  "n_args =1  n_args =1 n_args =1 n_args =1  always firist element
+    printf("n_args =  %d  \n",n_args);  //  "n_args =1  n_args =1 n_args =1 n_args =1  always firist element
 
     /* code */
     int number=va_arg(myList,int);
