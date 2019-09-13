@@ -1,0 +1,1 @@
+A string in C is merely an array of characters. The length of a string is determined by a terminating null character: '\0'. So, a string with the contents, say, "abc" has four characters: 'a', 'b', 'c', and the terminating null ('\0') character.

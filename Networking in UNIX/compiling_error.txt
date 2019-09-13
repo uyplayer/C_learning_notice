@@ -1,0 +1,10 @@
+/home/uyplayer/Github/C_learning_notice/Networking in UNIX/server.c: In function ‘main’:
+/home/uyplayer/Github/C_learning_notice/Networking in UNIX/server.c:23:9: error: ‘serv’ undeclared (first use in this function); did you mean ‘recv’?
+ memset(&serv, 0, sizeof(serv));           /* zero the struct before filling the fields */
+         ^~~~
+         recv
+/home/uyplayer/Github/C_learning_notice/Networking in UNIX/server.c:23:9: note: each undeclared identifier is reported only once for each function it appears in
+/home/uyplayer/Github/C_learning_notice/Networking in UNIX/server.c:36:54: error: ‘dest’ undeclared (first use in this function); did you mean ‘dev_t’?
+ int consocket = accept(mysocket, (struct sockaddr *)&dest, &socksize);
+                                                      ^~~~
+                                                      dev_t
