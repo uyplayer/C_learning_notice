@@ -2,11 +2,13 @@
 
 void m(void);
 void b(void);
+void andop(void);
 int main(int argc, char const *argv[])
 {
     
     // m();
-    b();
+    // b();
+    andop();
     
     return 0;
 }
@@ -46,3 +48,19 @@ void b(void){
         printf("input number is : %d  is odd \n",number);
     }
 }
+
+void andop(void){
+    printf(" fuc  andop   \n");
+    int number;
+    printf("please inter a number : \n");
+    scanf("%d",&number);
+    printf("input number is : %d \n ",number);
+    if((number&1)==0){
+        printf("input number is : %d  is even \n",number);
+    }else
+    {
+        printf("input number is : %d  is odd \n",number);
+    }
+    
+    
+    }
