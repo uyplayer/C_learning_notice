@@ -1,0 +1,3 @@
+/usr/bin/ld: /tmp/cceFJ1mi.o: in function `main':
+ok.c:(.text+0xa): undefined reference to `myFunc'
+collect2: error: ld returned 1 exit status
